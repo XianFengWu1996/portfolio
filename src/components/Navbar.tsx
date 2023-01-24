@@ -133,19 +133,29 @@ const NavBar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/" scroll={false}>
-                <li className="py-4 text-sm">Home</li>
+                <li onClick={handleClose} className="py-4 text-sm">
+                  Home
+                </li>
               </Link>
               <Link href="/#about" scroll={false}>
-                <li className="py-4 text-sm">About</li>
+                <li onClick={handleClose} className="py-4 text-sm">
+                  About
+                </li>
               </Link>
               <Link href="/#skills" scroll={false}>
-                <li className="py-4 text-sm">Skills</li>
+                <li onClick={handleClose} className="py-4 text-sm">
+                  Skills
+                </li>
               </Link>
               <Link href="/#projects" scroll={false}>
-                <li className="py-4 text-sm">Projects</li>
+                <li onClick={handleClose} className="py-4 text-sm">
+                  Projects
+                </li>
               </Link>
               <Link href="/#contact" scroll={false}>
-                <li className="py-4 text-sm">Contact</li>
+                <li onClick={handleClose} className="py-4 text-sm">
+                  Contact
+                </li>
               </Link>
             </ul>
 
